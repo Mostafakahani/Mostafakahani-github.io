@@ -2,7 +2,7 @@
 const nextConfig = {
   output: "export",
   basePath: '/Mostafakahani-github.io',
-
+  reactStrictMode: true,
 };
 
 export default nextConfig;
