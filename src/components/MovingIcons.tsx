@@ -3,15 +3,15 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 const icons = [
-  { src: "/figma.avif", tooltip: "Favorite" },
-  { src: "/framer.avif", tooltip: "Love" },
-  { src: "/framer.avif", tooltip: "Happy" },
-  { src: "/figma.avif", tooltip: "Sunny" },
-  { src: "/framer.avif", tooltip: "Night" },
-  { src: "/framer.avif", tooltip: "Love" },
-  { src: "/framer.avif", tooltip: "Happy" },
-  { src: "/figma.avif", tooltip: "Sunny" },
-  { src: "/framer.avif", tooltip: "Night" },
+  { src: "/images/figma.avif", tooltip: "Favorite" },
+  { src: "/images/framer.avif", tooltip: "Love" },
+  { src: "/images/framer.avif", tooltip: "Happy" },
+  { src: "/images/figma.avif", tooltip: "Sunny" },
+  { src: "/images/framer.avif", tooltip: "Night" },
+  { src: "/images/framer.avif", tooltip: "Love" },
+  { src: "/images/framer.avif", tooltip: "Happy" },
+  { src: "/images/figma.avif", tooltip: "Sunny" },
+  { src: "/images/framer.avif", tooltip: "Night" },
 ];
 
 const MovingIcons = () => {

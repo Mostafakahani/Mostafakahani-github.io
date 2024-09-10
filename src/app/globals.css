@@ -5,15 +5,9 @@
 @font-face {
   font-family: "recoleta";
   font-weight: normal;
-  src: url("/recoleta-regulardemo.otf") format("truetype");
+  src: url("./fonts/recoleta-regulardemo.otf") format("truetype");
 }
 
-@font-face {
-  font-family: "Recoleta";
-  src: url("/recoleta-regulardemo.otf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 
 @font-face {
   font-family: "Geist Sans";

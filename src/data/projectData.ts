@@ -3,7 +3,7 @@ export const projectData = [
     Title: "Budget Planner Finance App",
     SubTitle:
       "With user-centered approach, the goals was to create an intuitive interface for effortless financial management while incorporating gamification.",
-    Image: "/main1.avif",
+    Image: "/images/main1.avif",
     OptionOne: "12 min",
     OptionTwo: "4.5*",
     ButtonText: "See Website",
@@ -14,7 +14,7 @@ export const projectData = [
     Title: "Task Manager App",
     SubTitle:
       "Designed to simplify task management with a clean, user-friendly interface and integrated reminders.",
-    Image: "/man2.jpg",
+    Image: "/images/man2.jpg",
     OptionOne: "8 min",
     OptionTwo: "4.7*",
     ButtonText: "Explore More",

@@ -7,7 +7,7 @@ export default function Profile() {
       <div className="relative">
         <Image
           className="rounded-full"
-          src="/man.avif"
+          src="/images/man.avif"
           width={80}
           height={80}
           alt="profile"
