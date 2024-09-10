@@ -47,7 +47,7 @@ export default function ProjectCards({
           </div>
           <div className="md:w-1/2 flex flex-col gap-6">
             <Image
-              className="rounded-xl max-w-[314px] max-h-[1080px]"
+              className="rounded-xl sm:min-w-[444px] max-w-[314px] max-h-[1080px]"
               src={image || "/images/main1.avif"}
               width={512}
               height={1080}
