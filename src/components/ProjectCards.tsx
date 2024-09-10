@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -45,11 +46,11 @@ export default function ProjectCards({
             </div>
           </div>
           <div className="md:w-1/2 flex flex-col gap-6">
-            <img
-              className="rounded-xl object-cover sm:min-w-[450px] sm:min-h-auto max-w-[314px] max-h-[1080px]"
+            <Image
+              className="rounded-xl max-w-[314px] max-h-[1080px]"
               src={image || "/main1.avif"}
-              // width={512}
-              // height={1080}
+              width={512}
+              height={1080}
               alt=""
             />
             <div className="flex flex-row gap-6">

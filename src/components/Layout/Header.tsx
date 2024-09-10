@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { Menu } from "lucide-react";
@@ -11,7 +12,7 @@ export default function Header() {
     <header className="w-full max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 mt-5">
       <div className="flex flex-row justify-between items-center py-4">
         <div className="w-10 sm:w-10">
-          <img className="w-[150px] h-auto" src="/logo.avif" alt="logo" />
+          <Image width={150} height={100} src="/logo.avif" alt="logo" />
         </div>
         <div className="hidden md:flex flex-row items-center gap-6 lg:gap-10">
           <Link
